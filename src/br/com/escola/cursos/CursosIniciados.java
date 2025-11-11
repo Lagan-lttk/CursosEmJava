@@ -25,4 +25,20 @@ public class CursosIniciados extends CursoBD {
             System.out.println(i+" -> "+cursos.get(i).getNome());
         }
     }
+
+    public static List<Curso> getCursos() {
+        return cursos;
+    }
+
+    public static void setCursos(List<Curso> cursos) {
+        CursosIniciados.cursos = cursos;
+    }
+
+    public int getQntDeCursos() {
+        return qntDeCursos;
+    }
+
+    public void setQntDeCursos(int qntDeCursos) {
+        this.qntDeCursos = qntDeCursos;
+    }
 }

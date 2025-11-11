@@ -14,7 +14,7 @@ public class Menu {
         System.out.println("-> Menu (Informe a opção desejada!)");
         System.out.println("");
         System.out.println("1 -> Cadastrar em Curso ;");
-        System.out.println("2 -> Retirar Cadastro de Curso ;");
+        System.out.println("2 -> Meus Cursos ;");
         System.out.println("0 -> Encerrar ;");
         System.out.println("");
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
