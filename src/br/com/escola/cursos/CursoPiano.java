@@ -9,12 +9,12 @@ public class CursoPiano extends Curso implements IGestaoCursos {
     }
 
     @Override
-    public void iniciarCurso() {
-
+    public void iniciarCurso(int Index) {
+        System.out.println("Curso Iniciado com Sucesso!");
     }
 
     @Override
-    public void encerrarCurso() {
-
+    public void encerrarCurso(int Index) {
+        System.out.println("Curso Encerrado com Sucesso!");
     }
 }

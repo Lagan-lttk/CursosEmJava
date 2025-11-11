@@ -9,12 +9,12 @@ public class CursoBateria extends Curso implements IGestaoCursos {
     }
 
     @Override
-    public void iniciarCurso() {
-        System.out.println();
+    public void iniciarCurso(int Index) {
+        System.out.println("Curso Iniciado com Sucesso!");
     }
 
     @Override
-    public void encerrarCurso() {
-        System.out.println();
+    public void encerrarCurso(int Index) {
+        System.out.println("Curso Encerrado com Sucesso!");
     }
 }

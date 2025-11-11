@@ -1,6 +1,8 @@
 package br.com.escola.cursos;
 
-public class Curso {
+import br.com.escola.interfaces.IGestaoCursos;
+
+public class Curso implements IGestaoCursos {
 
     private String nome;
     private int quantidadeDeAlunos;

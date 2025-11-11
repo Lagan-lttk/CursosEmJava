@@ -1,13 +1,15 @@
 package br.com.escola.cursos;
 
+import br.com.escola.interfaces.IGestaoCursos;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class CursosIniciados extends CursoBD {
+public class CursosIniciados implements IGestaoCursos {
     private static List<Curso> cursos = new ArrayList<>();
     private int qntDeCursos = 0;
 
-    public CursosIniciados(List<Curso> cursos, int qntDeCursos) {
+    public CursosIniciados( int qntDeCursos) {
         this.cursos = cursos;
         this.qntDeCursos = qntDeCursos;
     }
@@ -40,5 +42,15 @@ public class CursosIniciados extends CursoBD {
 
     public void setQntDeCursos(int qntDeCursos) {
         this.qntDeCursos = qntDeCursos;
+    }
+
+    @Override
+    public void iniciarCurso(int Index) {
+        getCursos().get(Index).setIniciado(true);
+    }
+
+    @Override
+    public void encerrarCurso(int Index) {
+        getCursos().get(Index).setIniciado(false);
     }
 }

@@ -17,7 +17,7 @@ public class CursosDisponiveis extends CursoBD{
         cursos.add(curso);
     }
 
-    public static void removerCurso(Curso curso){
+    public static void encerrarCurso(Curso curso){
         cursos.remove(curso);
     }
 
@@ -41,5 +41,15 @@ public class CursosDisponiveis extends CursoBD{
 
     public void setQntDeCursos(int qntDeCursos) {
         this.qntDeCursos = qntDeCursos;
+    }
+
+    @Override
+    public void iniciarCurso(int Index) {
+        System.out.println("Não é possivel iniciar um curso ainda não cadastrado!");
+    }
+
+    @Override
+    public void encerrarCurso(int Index) {
+        System.out.println("Não é possivel encerrar um curso ainda não cadastrado!");
     }
 }

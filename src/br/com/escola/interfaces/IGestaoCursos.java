@@ -1,6 +1,6 @@
 package br.com.escola.interfaces;
 
 public interface IGestaoCursos {
-    public void iniciarCurso();
-    public void encerrarCurso();
+    void iniciarCurso(int Index);
+    void encerrarCurso(int Index);
 }
