@@ -1,5 +1,4 @@
 package br.com.escola.cursos;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,13 +42,4 @@ public class CursosDisponiveis extends CursoBD{
         this.qntDeCursos = qntDeCursos;
     }
 
-    @Override
-    public void iniciarCurso(int Index) {
-        System.out.println("Não é possivel iniciar um curso ainda não cadastrado!");
-    }
-
-    @Override
-    public void encerrarCurso(int Index) {
-        System.out.println("Não é possivel encerrar um curso ainda não cadastrado!");
-    }
 }

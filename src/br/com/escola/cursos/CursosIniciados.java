@@ -5,7 +5,7 @@ import br.com.escola.interfaces.IGestaoCursos;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CursosIniciados implements IGestaoCursos {
+public class CursosIniciados {
     private static List<Curso> cursos = new ArrayList<>();
     private int qntDeCursos = 0;
 
@@ -44,13 +44,4 @@ public class CursosIniciados implements IGestaoCursos {
         this.qntDeCursos = qntDeCursos;
     }
 
-    @Override
-    public void iniciarCurso(int Index) {
-        getCursos().get(Index).setIniciado(true);
-    }
-
-    @Override
-    public void encerrarCurso(int Index) {
-        getCursos().get(Index).setIniciado(false);
-    }
 }

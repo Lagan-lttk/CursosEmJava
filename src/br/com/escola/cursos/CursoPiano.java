@@ -9,12 +9,17 @@ public class CursoPiano extends Curso implements IGestaoCursos {
     }
 
     @Override
-    public void iniciarCurso(int Index) {
-        System.out.println("Curso Iniciado com Sucesso!");
+    public void exibirInfo() {
+        super.exibirInfo();
     }
 
     @Override
-    public void encerrarCurso(int Index) {
-        System.out.println("Curso Encerrado com Sucesso!");
+    public void avaliacao() {
+        System.out.println("Média >= 5");
+        System.out.println("Divisão de notas:");
+        System.out.println("1 -> Apresentação: 4 pts;");
+        System.out.println("1 -> Pesquisa: 2 pts;");
+        System.out.println("1 -> Prova: 3 pts;");
+        System.out.println("1 -> Atividades: 1 pts;");
     }
 }

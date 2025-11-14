@@ -13,6 +13,7 @@ public class Menu {
         System.out.println("-> Menu (Informe a opção desejada!)\n");
         System.out.println("1 -> Cadastrar em Curso ;");
         System.out.println("2 -> Meus Cursos ;");
+        System.out.println("3 -> Infos ;");
         System.out.println("0 -> Encerrar ;\n");
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
     }
@@ -20,8 +21,8 @@ public class Menu {
     public static void exibirMenuADM() {
         System.out.println("=-=-=-=-=-=-=-=- A  D  M =-=-=-=-=-=-=-=-\n");
         System.out.println("-> Menu (Informe a opção desejada!)\n");
-        System.out.println("1 -> Adicionar Curso;");
-        System.out.println("2 -> Remover Curso;");
+        System.out.println("1 -> Adicionar Curso ;");
+        System.out.println("2 -> Remover Curso ;");
         System.out.println("9 -> Encerrar ;\n");
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
     }

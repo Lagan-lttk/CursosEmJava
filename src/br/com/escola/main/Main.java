@@ -25,6 +25,17 @@ public class Main {
         while (true) {
             Menu.exibirMenu();
             opcao = scanner.nextInt();
+            if (opcao == 3){
+                cursoPiano.exibirInfo();
+                cursoPiano.avaliacao();
+                cursoBateria.exibirInfo();
+                cursoBateria.avaliacao();
+                cursoGuitarra.exibirInfo();
+                cursoGuitarra.avaliacao();
+                System.out.println("Pressione qualquer tecla para encerrar:");
+                scanner.next();
+
+            }
             Menu.escolhaMenu(opcao);
         }
         } catch ( InputMismatchException e){
