@@ -8,6 +8,16 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CursoTesteeFalha {
 
     @Test
+    public void Falha() {
+
+        int x = 10;
+        int y = 5;
+
+        assertEquals(x, y);
+
+    }
+
+    @Test
     public void testeLista() {
 
         CursosDisponiveis cursos = new CursosDisponiveis();
@@ -16,15 +26,6 @@ public class CursoTesteeFalha {
 
     }
 
-    @Test
-    public void Falha() {
-
-        int esperado = 10;
-        int obtido = 5;
-
-        assertEquals(esperado, obtido);
-
-    }
 
 
 }
