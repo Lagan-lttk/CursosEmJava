@@ -12,8 +12,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int opcao = 0;
 
-        //Inicializando Cursos
-        Curso cursoBateria = new CursoBateria(8.5f,250,"Bateria Eloy",80);
+        //Inicializando Cursos Base
+        Curso cursoBateria = new CursoBateria(8.5F,250,"Bateria Eloy",80);
         Curso cursoGuitarra = new CursoGuitarra(6.45F, 60, "Guia Slasher Guitarrista", 30);
         Curso cursoPiano = new CursoPiano(7.0F, 120, "Guia Mozzart Pianista", 120);
 
