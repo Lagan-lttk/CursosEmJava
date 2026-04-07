@@ -1,0 +1,10 @@
+br\com\escola\main\Main.class
+br\com\escola\cursos\CursosIniciados.class
+br\com\escola\interfaces\IGestaoCursos.class
+br\com\escola\cursos\CursoBateria.class
+br\com\escola\cursos\CursosDisponiveis.class
+br\com\escola\funcoes\Menu.class
+br\com\escola\cursos\Curso.class
+br\com\escola\cursos\CursoBD.class
+br\com\escola\cursos\CursoGuitarra.class
+br\com\escola\cursos\CursoPiano.class
