@@ -2,7 +2,7 @@ package br.com.escola.cursos;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CursosDisponiveis extends CursoBD{
+public class CursosDisponiveis extends CursoBD {
 
     private static List<Curso> cursos = new ArrayList<>();
     private int qntDeCursos = 0;

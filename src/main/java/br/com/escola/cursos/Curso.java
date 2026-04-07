@@ -61,6 +61,17 @@ public class Curso implements IGestaoCursos {
         this.quantidadeDeAlunos = quantidadeDeAlunos;
     }
 
+    public void exibirInfo() {
+        System.out.println("=-=-=-=--=-=-=-=-=- INFOS "+getNome()+" =-=-=-=--=-=-=-=-=-");
+        System.out.println(getNome());
+        System.out.println(getAvaliacao());
+        System.out.println(getDuracao());
+        System.out.println(getQuantidadeDeAlunos());
+        System.out.println("=-=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-= ");
+    }
 
-
+    @Override
+    public void avaliacao() {
+        System.out.println("Média >= 7");
+    }
 }
