@@ -1,4 +1,4 @@
-name: Java CI com Maven
+name: Pipeline com Maven em Java
 
 on:
   push:
@@ -26,9 +26,9 @@ jobs:
       - name: Compilar projeto
         run: mvn clean compile
 
-      - name: Executar testes
+      - name: Fazer Testes
         run: mvn test
 
-      - name: Deploy simulado
-        if: github.ref == 'refs/heads/main'
-        run: echo "Deploy realizado com sucesso!"
+      - name: Deploy
+        if: github.ref == 'refs/heads/master'
+        run: echo "Deploy concluido"
