@@ -24,10 +24,10 @@ jobs:
           java-version: '17'
 
       - name: Compilar projeto
-        run: mvn clean compile
+        run: mvn -B clean compile
 
       - name: Fazer Testes
-        run: mvn test
+        run: mvn -B test
 
       - name: Deploy
         if: github.ref == 'refs/heads/master'
